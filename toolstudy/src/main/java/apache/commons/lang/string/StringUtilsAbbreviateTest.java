@@ -37,6 +37,16 @@ public class StringUtilsAbbreviateTest {
         //maxWidth 输出总宽度
         //字符串缩写截取 This is my Test  === This is ...
         System.out.println(StringUtils.abbreviate(str,"...",11));
+
+        //前后省略，自定义符号
+        //public static String abbreviate(String str,String abbrevMarker,int offset,int maxWidth)
+        //字符串缩写截取 This is my Test  === This...est
+        System.out.println(StringUtils.abbreviate(str,"...",5,11));
+
+        //省略中间部分，前后不省略
+        //public static String abbreviateMiddle(String str,String middle,int length)
+        //字符串缩写截取 This is my Test  === ...is my...
+        System.out.println(StringUtils.abbreviateMiddle(str,"...",10));
     }
 
 
