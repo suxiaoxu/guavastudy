@@ -16,5 +16,6 @@ public class StringUtilsSubStringTest {
 
         //截取右边第二个
         //public static String right(String str,int len)
+
     }
 }

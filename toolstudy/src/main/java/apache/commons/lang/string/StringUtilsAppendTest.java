@@ -11,6 +11,8 @@ public class StringUtilsAppendTest {
     String test = "TodayIsRightDay";
     @Test
     public void stringAppend(){
+
+        //是否有重复进行验证
         //向后添加
         //StringUtils.appendIfMissing("abc", "xyz") = "abcxyz"
         //StringUtils.appendIfMissing("abcxyz", "xyz") = "abcxyz"
@@ -25,6 +27,15 @@ public class StringUtilsAppendTest {
         System.out.println(StringUtils.prependIfMissing(test,"begin"));
         //忽略大小写
         System.out.print(StringUtils.prependIfMissingIgnoreCase(test,"begin"));
+
+        //左右添加
+        //public static String leftPad(String str,int size)
+        /*StringUtils.leftPad("bat", 5)  = "  bat"
+        StringUtils.leftPad("bat", 1)  = "bat"*/
+
+        //public static String leftPad(String str,int size, char padChar)
+        //StringUtils.leftPad("bat", 5, 'z')  = "zzbat"
+
 
     }
 }
