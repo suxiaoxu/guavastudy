@@ -36,6 +36,10 @@ public class StringUtilsEmptyTest {
         //去除字符串中的空格（前后空格）
         // StringUtils.strip(" ab c ") = "ab c"
 
+        //去除字符串中的空格
+        // StringUtils.trim("    abc    ") = "abc"
+        System.out.println(StringUtils.trim(" adsf  sdf s  "));
+        //public static String stripStart(String str,String stripChars)
 
 
     }
