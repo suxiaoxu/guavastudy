@@ -33,6 +33,10 @@ public class StringUtilsEmptyTest {
         StringUtils.defaultString("", "NULL")    = ""
         StringUtils.defaultString("bat", "NULL") = "bat"*/
 
+        //去除字符串中的空格（前后空格）
+        // StringUtils.strip(" ab c ") = "ab c"
+
+
 
     }
 }
