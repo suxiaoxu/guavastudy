@@ -16,6 +16,7 @@ public class BeanCreate {
         classRoom.setName("zhangsan");
         classRoom.setAge(12);
         classRoom.setBrithDay(new Date());
+        classRoom.setLitest("lisi");
         classRoom.setList(Lists.newArrayList(getAddress1(),getAddress2()));
         return classRoom;
     }

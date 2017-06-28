@@ -16,6 +16,15 @@ public class ClassRoom {
 
     private List<Address> list;
 
+    private String litest;
+
+    public String getLitest() {
+        return litest;
+    }
+
+    public void setLitest(String litest) {
+        this.litest = litest;
+    }
 
     public String getName() {
         return name;
